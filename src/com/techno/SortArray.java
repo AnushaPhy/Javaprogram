@@ -1,0 +1,19 @@
+package com.techno;
+
+import java.util.Arrays;
+
+public class SortArray {
+
+	public static void main(String[] args) {
+		int[]array=new int[] {90,80,5,110,12,22,67,34};
+		Arrays.sort(array);
+		System.out.println("Elements of array sorted in ascending order:");
+		for(int i=0;i<array.length;i++) {
+			System.out.println(array[i]);
+		}
+		
+		
+
+	}
+
+}
